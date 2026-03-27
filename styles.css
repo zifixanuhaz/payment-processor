@@ -1,0 +1,109 @@
+.payment-processor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method img {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.payment-method h2 {
+  margin-top: 0;
+}
+
+.payment-method button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-method button:hover {
+  background-color: #3e8e41;
+}
+
+.payment-method button:active {
+  background-color: #2e6f35;
+}
+
+Methods {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.data-row label {
+  width: 20%;
+  text-align: right;
+}
+
+.data-row input[type="text"] {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.data-row select {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.data-row button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.data-row button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.data-row button[type="submit"]:active {
+  background-color: #2e6f35;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+}
